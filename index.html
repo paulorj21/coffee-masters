@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Masters</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <header class="page-header">
+            <img class="logo-img" src="./images/coffee_masters_logo.png" alt="Coffee Masters logo">
+            <h1 class="logo">Coffee Masters</h1>
+        </header>
+
+        <main class="page-main">
+            <div class="items container">
+                <h2 class="div-title">ITEMS</h2>
+                <div class="item-info">
+                    <div class="item-left">    
+                        <p class="item-quantity">1x</p>
+                        <div class="item-desc">
+                            <p class="item-name">Cappuccino</p>
+                            <ul class="item-additional">
+                                <li class="additional-name">Lite foam</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="item-price">$3.35</p>
+                </div>
+
+                <div class="item-info">
+                    <div class="item-left">
+                        <p class="item-quantity">1x</p>
+                        <div class="item-desc">
+                            <p class="item-name">Cappuccino</p>
+                            <ul class="item-additional">
+                                <li class="additional-name">Lite milk</li>
+                                <li class="additional-name">Double espresso</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="item-price">$3.85</p>
+                </div>
+
+                <div class="item-info">
+                    <div class="item-left">
+                        <p class="item-quantity">1x</p>
+                        <div class="item-desc">
+                            <p class="item-name">Croissant</p>
+                            <ul class="item-additional">
+                                <li class="additional-name">Butter</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="item-price">$2.45</p>
+                </div>
+            </div>
+
+            <div class="client-info">
+                <form class="client-form container">
+                    <h2 class="div-title">NAME</h2>
+                    <div class="input-fields">    
+                        <label for="name" class="input-label">Name for order</label>
+                        <input id="name" class="client-input" type ="text">
+                    </div>
+                </form>
+    
+                <form class="client-form container">
+                    <h2 class="div-title">PAYMENT</h2>
+                    <div class="input-fields">
+                        <label for="card-number" class="input-label">Card number</label>
+                        <input id="card-number" class="client-input" type ="text">
+                    </div>
+                    <div class="input-fields">
+                        <label for="ccv-number" class="input-label">CCV Number</label>
+                        <input id="ccv-number" class="client-input" type ="text">
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer class="page-footer">
+            <div class="order-total">
+                <ul class="values-alias">
+                    <li class="alias">Subtotal:</li>
+                    <li class="alias">Tax:</li>
+                    <li class="alias total">Total:</li>
+                </ul>
+                <ul class="values">
+                    <li class="value-item">$9.65</li>
+                    <li class="value-item">$0.82</li>
+                    <li class="value-item total">$10.47</li>
+                </ul>
+            </div>
+            <button class="place-order-btn">Place order</button>
+        </footer>
+    </div>
+</body>
+</html>
