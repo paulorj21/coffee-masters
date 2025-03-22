@@ -1,4 +1,4 @@
-# ☕ Coffe Masters
+# ☕ Coffee Masters
 
 ## Descrição
 
