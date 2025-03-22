@@ -34,5 +34,4 @@ As seguintes cores foram utilizadas no projeto:
 
 ## Design
 ![coffee_masters design](https://github.com/user-attachments/assets/ef3ae68f-572e-4e0a-b955-ab3e55b16305)
-
 Design feito por [Alex Danielson](https://www.alexdanielson.com/)
