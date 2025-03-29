@@ -4,6 +4,8 @@
 
 Este é um projeto de interface de pedido de café desenvolvido com HTML e CSS, inspirado no design de sistemas de checkout de cafeterias modernas.
 
+[Live Demo](https://paulorj21.github.io/coffee-masters/)
+
 ## 📌 Recursos
 * **Seção de Itens do Pedido:** Exibe os produtos adicionados, suas descrições e preços.
 
